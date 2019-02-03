@@ -17,7 +17,7 @@ Yet I am not aware of any good free loggin solution that allows:
 
 If you are willing to pay for it, one of [these services](https://www.fullstackpython.com/logging.html) would probably make a better option.
 
-\*Google Sheet API is free for 100 API calls per key in every 100 seconds, that's why we only push logs to sheet at an interval. But other than that its free.
+\*Google Sheet API is free for 100 API calls per key in every 100 seconds, that's why we only push logs to sheet at an interval. But other than that its free (and Google Sheet doesn't take up your Drive storage either, neat huh?)
 ## How to use
 Continue reading? Guess you are as broke as me, and that's alright ;)
 1. Get a google account  
