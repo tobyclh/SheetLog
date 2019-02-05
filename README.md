@@ -29,7 +29,7 @@ Now you are done preparing for it, let's test it out.
 ```
 from SheetLog import SheetLog
 import logging
-sheetlog = SheetLog('path to your crediential.json', name='name of the file', email='your email address')
+sheetlog = SheetLog('path to your crediential.json', name='name of the sheet to log to', email='your email address')
 logger = logging.getLogger('name your logger')
 logger.addHandler(sheetlog.handler)
 
